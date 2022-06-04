@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--===================== BOXICON =====================-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--===================== FAVICON =====================-->
+    <link rel="shortcut icon" href="assets/img/book-content-solid-24.png" type="image/x-icon">
+
+    <!--======================= CSS =======================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Responsive Personal Portfolio</title>
+</head>
+<body>
+    <!--====================== HEADER ======================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-book-content'></i>Personal
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--======================= MAIN =======================-->
+    <main class="main">
+        <!--================== HOME ==================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/home-image.png" alt="" class="home__image">
+
+                <div class="home__content">
+                    <span class="section__subtitle">
+                        Gabriel Pires
+                    </span>
+                    <h1 class="section__title home__title">
+                        The Simple,<br> 
+                        Clean Design
+                    </h1>
+                    <p class="section__description home__description">
+                        Agency provides a full service range including technical skills, design, business understanding.
+                    </p>
+                    <a href="#" class="button">See my work</a>
+                </div>
+            </div>
+        </section>
+
+        <!--================== SERVICES =================-->
+        <section class="services section" id="services">
+            <span class="section__subtitle-center">
+                Service
+            </span>
+            <h2 class="section__title-center services__title">
+                How I Can Help<br> 
+                You With
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__card-header">
+                        <i class='bx bxs-palette services__icon'></i>
+                        <h3 class="services__card-title  services__card-title">
+                            Design
+                        </h3>
+                    </div>
+                    <p class="section__description services__card-description">
+                        Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                    </p>
+                    <a href="#" class="button button--learn">
+                        <i class='bx bx-plus' ></i> Learn More
+                    </a>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__card-header">
+                        <i class='bx bxs-briefcase services__icon'></i>
+                        <h3 class="services__card-title services__card-title">
+                            Development
+                        </h3>
+                    </div>
+                    <p class="section__description services__card-description">
+                        Hire to outsource your digital marketing efforts, instead of handling in-house can provide your business.
+                    </p>
+                    <a href="#" class="button button--learn">
+                        <i class='bx bx-plus' ></i> Learn More
+                    </a>
+                </article>
+            </div>
+
+            <p class="section__description">
+                Want more service? <span class="services__explore">Explore Now</span>
+            </p>
+        </section>
+
+        <!--================= PORTFOLIO =================-->
+        <section class="portfolio section" id="portfolio">
+            <div class="portfolio__data container">
+                <div class="portfolio__content">
+                    <span class="section__subtitle">
+                        Portfolio
+                    </span>
+                    <h2 class="section__title service__title">
+                        Latest Work
+                    </h2>
+                </div>
+
+                <a href="#" class="button button--light">Explore More</a>
+            </div>
+
+            <div class="portfolio__container grid">
+                <article class="portfolio__card">
+                    <div class="portfolio__image">
+                        <img src="assets/img/p1.png" alt="" class="porffolio__card-img">
+                        <a href="#" class="button button--white">
+                            Design
+                        </a>
+                        <h2 class="portfolio__card-title">Sofa</h2>
+                    </div>
+                </article>
+
+                <article class="portfolio__card">
+                    <div class="portfolio__image">
+                        <img src="assets/img/p2.png" alt="" class="porffolio__card-img">
+                        <a href="#" class="button button--white">
+                            Branding
+                        </a>
+                        <h2 class="portfolio__card-title">KeyBoard</h2>
+                    </div>
+                </article>
+
+                <article class="portfolio__card">
+                    <div class="portfolio__image">
+                        <img src="assets/img/p3.png" alt="" class="porffolio__card-img">
+                        <a href="#" class="button button--white">
+                            Illustration
+                        </a>
+                        <h2 class="portfolio__card-title">Work Media</h2>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--=================== ABOUT ===================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="assets/img/p4.png" alt="" class="about__img">
+                
+                <div class="about__content">
+                    <span class="section__subtitle">
+                        Gabriel Pires
+                    </span>
+                    <h2 class="section__title about__title">
+                        Professional<br>
+                        Web Designer
+                    </h2>
+                    <span class="about__subtitle">
+                        Provides a full service range
+                    </span>
+                    <p class="section__description about__description">
+                        Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
+                    </p>
+                    <a href="#" class="button button--wide">About Me</a>
+                </div>
+            </div>
+
+            <div class="about__data container grid">
+                <article class="about__card flex">
+                    <i class='bx bxs-calendar-alt about__icon'></i>
+                    <div class="about__card-content">
+                        <h2 class="about__card-title">
+                            42%
+                        </h2>
+                        <p class="about__card-description">
+                            Years of experience
+                        </p>
+                    </div>
+                </article>
+
+                <article class="about__card flex">
+                    <i class='bx bxs-briefcase about__icon'></i>
+                    <div class="about__card-content">
+                        <h2 class="about__card-title">
+                            73+
+                        </h2>
+                        <p class="about__card-description">
+                            Projects Done
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--================= FEATURES ==================-->
+        <section class="features section" id="features">
+            <div class="features__data container grid">
+                <img src="assets/img/p5.png" alt="" class="features__img">
+                
+                <div class="features__content">
+                    <span class="section__subtitle">
+                        Features
+                    </span>
+                    <h2 class="section__title features__title">
+                        Give Your Site<br> 
+                        A New Look
+                    </h2>
+                    <p class="section__description features__description">
+                        Service range including technical skills, design, business understanding.
+                    </p>
+
+                    <ul class="features__list flex">
+                        <li class="features__item flex">
+                            <i class='bx bx-check features__icon'></i>
+                            Range including technical skills
+                        </li>
+                        <li class="features__item flex">
+                            <i class='bx bx-check features__icon'></i>
+                            Business understanding
+                        </li>
+                        <li class="features__item flex">
+                            <i class='bx bx-check features__icon'></i>
+                            Partner on the long run
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="features__container-bg">
+                <div class="features__container container grid">
+                    <img src="assets/img/services-img.png" alt="" class="features__img-bg">
+                    <div class="features__content">
+                        <span class="section__subtitle">
+                            Get Started
+                        </span>
+                        <h3 class="section__title features__content-title">
+                            I Help Companies<br>
+                            Move Faster
+                        </h3>
+                        <a href="#" class="button">Contact Me</a>
+                    </div>
+                    <p class="section__description">
+                        Put themselves in the merchant's shoes. It is meant to partner on the long run.
+                    </p>
+                    <img src="assets/img/p6.png" alt="" class="features__bg-img">
+                </div>
+            </div>
+        </section>
+
+        <!--================ TESTIMONIAL ================-->
+        <section class="testimonial section" id="testimonial">
+            <span class="section__subtitle-center">
+                Testimonials
+            </span>
+            <h2 class="section__title-center testimonial__title">
+                What My<br>
+                Clients Saying
+            </h2>
+
+            <div class="testimonial__container container grid">
+                <article class="testimonial__card">
+                    <div class="testimonial__starts flex">
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                    </div>
+
+                    <p class="section__description testimonial__description">
+                        Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.
+                    </p>
+
+                    <div class="testimonial__card-profile flex">
+                        <img src="assets/img/u1.png" alt="" class="testimonial__card-img">
+                        <div class="testimonial__profile-content">
+                            <h3 class="testimonial__card-title">
+                                Graham Griffiths
+                            </h3>
+                            <p class="testimonial__profile-description">
+                                Twitor
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial__card">
+                    <div class="testimonial__starts flex">
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                    </div>
+
+                    <p class="section__description testimonial__description">
+                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                    </p>
+
+                    <div class="testimonial__card-profile flex">
+                        <img src="assets/img/u2.png" alt="" class="testimonial__card-img">
+                        <div class="testimonial__profile-content">
+                            <h3 class="testimonial__card-title">
+                                Alan Martí
+                            </h3>
+                            <p class="testimonial__profile-description">
+                                Meta Inc.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial__card">
+                    <div class="testimonial__starts flex">
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                        <i class='bx bxs-star testimonial__icon' ></i>
+                    </div>
+
+                    <p class="section__description testimonial__description">
+                        Provide your business with a variety of digital solutions to promote your product or service online.
+                    </p>
+
+                    <div class="testimonial__card-profile flex">
+                        <img src="assets/img/u3.png" alt="" class="testimonial__card-img">
+                        <div class="testimonial__profile-content">
+                            <h3 class="testimonial__card-title">
+                                Richardo Kann
+                            </h3>
+                            <p class="testimonial__profile-description">
+                                Photogram
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--=================== BLOG ====================-->
+        <section class="blog section" id="blog">
+            <div class="blog__data container flex">
+                <div class="blog__content">
+                    <span class="section__subtitle">
+                        Our blog
+                    </span>
+                    <h2 class="section__title">
+                        Latest Blog<br>
+                        Articles
+                    </h2>
+                </div>
+                <a href="#" class="button button--wide">
+                    Discover all
+                </a>
+            </div>
+
+            <div class="blog__container container grid">
+                <div class="blog__lager-col">
+                    <div class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/p7.png" alt="" class="blog__img">
+                        </div>
+
+                        <span class="blog__img-description">
+                            Stories
+                        </span>
+
+                        <h3 class="blog__card-title">
+                            Agency is a business you hire to outsource
+                        </h3>
+
+                        <span class="blog__card-date">
+                            5 Nov, 2021
+                        </span>
+                    </div>
+                </div>
+
+                <div class="blog__small-col grid">
+                    <div class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/p8.png" alt="" class="blog__img">
+                        </div>
+
+                        <span class="blog__img-description">
+                            Design
+                        </span>
+
+                        <h3 class="blog__card-title">
+                            Outsource your digital marketing efforts
+                        </h3>
+
+                        <span class="blog__card-date">
+                            29 Oct, 2021
+                        </span>
+                    </div>
+
+                    <div class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/p9.png" alt="" class="blog__img">
+                        </div>
+
+                        <span class="blog__img-description">
+                            Marketing
+                        </span>
+
+                        <h3 class="blog__card-title">
+                            Your business with a variety of digital
+                        </h3>
+
+                        <span class="blog__card-date">
+                            21 Oct, 2021
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="form container flex">
+                <div class="blog__form-content">
+                    <h3 class="form__title">
+                        Newsletter
+                    </h3>
+                    <p class="section__description form__description">
+                        A digital agency is a business you hire to outsource
+                    </p>
+                </div>
+
+                <div class="blog__form-data flex">
+                    <input type="email" placeholder="Your email" required class="form__input">
+                    <button class="button button--wide">Subscribe</button>
+                </div>
+            </form>
+        </section>
+
+        <!--================== CONTACT ==================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <form action="" class="contact__form">
+                    <h3 class="contact__form-title">
+                        Get In Touch
+                    </h3>
+                    <div>
+                        <input type="email" placeholder="Your email" class="contact__form-input">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Subject" class="contact__form-input">
+                    </div>
+                    <div>
+                        <textarea name="" placeholder="Message" class="contact__form-input"></textarea>
+                    </div>
+
+                    <button href="#" class="button required">Submit now</button>
+                </form>
+
+                <div class="contact__content">
+                    <span class="section__subtitle">
+                        Contact
+                    </span>
+                    <h3 class="section__title contact__title">
+                        Contact Me
+                    </h3>
+                    <p class="section__description contact__description">
+                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                    </p>
+
+                    <ul class="contact__list flex">
+                        <li class="contact__item">
+                            <i class='bx bxs-droplet contact__icon'></i>
+                            2247 Lunetta Street, TX 76301
+                        </li>
+                        <li class="contact__item">
+                            <i class='bx bxs-phone contact__icon'></i>
+                            +1 (234) 567-89-00
+                        </li>
+                        <li class="contact__item">
+                            <i class='bx bxs-envelope contact__icon' ></i>
+                            info@agency.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--================== PROFILE ==================-->
+        <section class="profile section" id="profile">
+            <div class="profile__container container grid">
+                <img src="assets/img/home-image.png" alt="" class="profile__img">
+                
+                <div class="profile__content">
+                    <span class="section__subtitle">Gabriel Pires</span>
+                    <h2 class="section__title">
+                        Help To Build<br> 
+                        Your Dream<br> 
+                        Project
+                    </h2>
+                    <p class="section__description">
+                        A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                    </p>
+                    <a href="#" class="button">Contact me</a>
+                </div>
+            </div>
+
+            <div class="profile__data grid">
+                <img src="assets/img/img1.png" alt="" class="profile__small-img">
+                <img src="assets/img/img2.png" alt="" class="profile__small-img">
+                <img src="assets/img/img3.png" alt="" class="profile__small-img">
+                <img src="assets/img/img4.png" alt="" class="profile__small-img">
+                <img src="assets/img/img5.png" alt="" class="profile__small-img">
+                <img src="assets/img/img6.png" alt="" class="profile__small-img">
+            </div>
+        </section>
+    </main>
+
+    <!--====================== FOOTER ======================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="nav__logo">
+                    Personal
+                </a>
+            </div>
+
+            <ul class="footer__list flex">
+                <h3 class="footer__title">Menu</h3>
+                <li>
+                    <a href="#" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__list flex">
+                <h3 class="footer__title">Service</h3>
+                <li>
+                    <a href="#" class="footer__link">Design</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Development</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Marketing</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">See More</a>
+                </li>
+            </ul>
+
+            <ul class="footer__list flex">
+                <li>
+                    <a href="#" class="footer__link">
+                        <i class='bx bxl-facebook footer__icon'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">
+                        <i class='bx bxl-twitter footer__icon'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">
+                        <i class='bx bxl-instagram footer__icon'></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__copyright container flex">
+            <a href="#" class="footer__copy">Copyright © 2022 Laaqiq. All Rights Reserved.</a>
+
+            <div class="footer__terms flex">
+                <li>
+                    <a href="#" class="footer__link">Terms of Use</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Privacy Policy</a>
+                </li>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
